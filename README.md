@@ -1,4 +1,9 @@
-# How To
+# Content
+
+1. [How To](#how-to)
+2. [Design Considerations](#design-considerations)
+
+## How To
 
 This project was bootstrapped with
 [Create React App](https://github.com/facebook/create-react-app).
@@ -29,7 +34,7 @@ more information.
 
 ---
 
-# Design Considerations
+## Design Considerations
 
 The project follow some considerations not only because of time constraints but
 also because de design was created as a way to represent an idea that would need
