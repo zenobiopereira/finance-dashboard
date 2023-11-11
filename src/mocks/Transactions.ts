@@ -1,0 +1,162 @@
+export default [
+  [
+    {
+      amount: 200050,
+      description: 'Loan',
+      type: 'expense',
+      timestamp: new Date('01/05/2023').toISOString(),
+    },
+    {
+      amount: 133590,
+      description: 'Loan',
+      type: 'expense',
+      timestamp: new Date('01/08/2023').toISOString(),
+    },
+    {
+      amount: 50050,
+      description: 'Credit Card',
+      type: 'expense',
+      timestamp: new Date('01/10/2023').toISOString(),
+    },
+    {
+      amount: 15000000,
+      description: 'Sale',
+      type: 'revenue',
+      timestamp: new Date('01/15/2023').toISOString(),
+    },
+    {
+      amount: 500000,
+      description: 'Sale',
+      type: 'revenue',
+      timestamp: new Date('01/21/2023').toISOString(),
+    },
+    {
+      amount: 120000,
+      description: 'Sale',
+      type: 'revenue',
+      timestamp: new Date('01/29/2023').toISOString(),
+    },
+  ],
+  [],
+  [],
+  [
+    {
+      amount: 200050,
+      description: 'Loan',
+      type: 'expense',
+      timestamp: new Date('04/05/2023').toISOString(),
+    },
+    {
+      amount: 133590,
+      description: 'Loan',
+      type: 'expense',
+      timestamp: new Date('04/08/2023').toISOString(),
+    },
+    {
+      amount: 50050,
+      description: 'Credit Card',
+      type: 'expense',
+      timestamp: new Date('04/10/2023').toISOString(),
+    },
+    {
+      amount: 3020000,
+      description: 'Sale',
+      type: 'revenue',
+      timestamp: new Date('04/15/2023').toISOString(),
+    },
+    {
+      amount: 180000,
+      description: 'Sale',
+      type: 'revenue',
+      timestamp: new Date('04/21/2023').toISOString(),
+    },
+    {
+      amount: 800000,
+      description: 'Sale',
+      type: 'revenue',
+      timestamp: new Date('04/29/2023').toISOString(),
+    },
+  ],
+  [],
+  [
+    {
+      amount: 200050,
+      description: 'Credit Card',
+      type: 'expense',
+      timestamp: new Date('06/05/2023').toISOString(),
+    },
+    {
+      amount: 133590,
+      description: 'Loan',
+      type: 'expense',
+      timestamp: new Date('06/08/2023').toISOString(),
+    },
+    {
+      amount: 50050,
+      description: 'Loan',
+      type: 'expense',
+      timestamp: new Date('06/10/2023').toISOString(),
+    },
+    {
+      amount: 15000000,
+      description: 'Sale',
+      type: 'revenue',
+      timestamp: new Date('06/15/2023').toISOString(),
+    },
+    {
+      amount: 3020000,
+      description: 'Sale',
+      type: 'revenue',
+      timestamp: new Date('06/21/2023').toISOString(),
+    },
+    {
+      amount: 120000,
+      description: 'Sale',
+      type: 'revenue',
+      timestamp: new Date('06/29/2023').toISOString(),
+    },
+  ],
+  [],
+  [],
+  [],
+  [
+    {
+      amount: 200050,
+      description: 'Loan',
+      type: 'expense',
+      timestamp: new Date('10/05/2023').toISOString(),
+    },
+    {
+      amount: 133590,
+      description: 'Loan',
+      type: 'expense',
+      timestamp: new Date('10/08/2023').toISOString(),
+    },
+    {
+      amount: 50050,
+      description: 'Credit Card',
+      type: 'expense',
+      timestamp: new Date('10/10/2023').toISOString(),
+    },
+  ],
+  [
+    {
+      amount: 200050,
+      description: 'Credit Card',
+      type: 'expense',
+      timestamp: new Date('11/05/2023').toISOString(),
+    },
+    {
+      amount: 133590,
+      description: 'Loan',
+      type: 'expense',
+      timestamp: new Date('11/08/2023').toISOString(),
+    },
+    {
+      amount: 50050,
+      description: 'Loan',
+      type: 'expense',
+      timestamp: new Date('11/10/2023').toISOString(),
+    },
+  ],
+] as const
