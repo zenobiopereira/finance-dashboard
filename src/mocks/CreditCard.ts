@@ -2,7 +2,7 @@ import type { CreditCard } from 'types'
 
 export default <CreditCard[]>[
   {
-    id: 1,
+    id: 111,
     name: 'Plaid Credit Card',
     limit: 200000,
     balance: 41000,

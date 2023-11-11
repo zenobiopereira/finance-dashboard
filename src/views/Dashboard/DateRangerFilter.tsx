@@ -66,7 +66,7 @@ export default function DateRangeFilter() {
             min={startDate}
             max={searchParams.get('to') || endDate}
             defaultValue={searchParams.get('from') ?? undefined}
-            onSelect={(event) =>
+            onChange={(event) =>
               updateSearchParam('from', event.currentTarget.value)
             }
           />
@@ -77,7 +77,7 @@ export default function DateRangeFilter() {
           <Input
             key={searchParams.get('to')}
             type="date"
-            onSelect={(event) =>
+            onChange={(event) =>
               updateSearchParam('to', event.currentTarget.value)
             }
             defaultValue={searchParams.get('to') ?? undefined}

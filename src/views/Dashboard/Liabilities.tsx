@@ -26,7 +26,7 @@ const descriptiveDateFormatter = new Intl.DateTimeFormat('en-US', {
 
 function Loan({ nth, data }: { nth: number; data: Loan }) {
   return (
-    <AccordionItem borderTop={!nth ? 'none' : undefined} key={nth}>
+    <AccordionItem borderTop={!nth ? 'none' : undefined} key={data.id}>
       <h2>
         <AccordionButton _expanded={{ bg: 'gray.100', color: 'gray.500' }}>
           <Box as="span" flex="1" textAlign="left">
@@ -74,7 +74,7 @@ function Loan({ nth, data }: { nth: number; data: Loan }) {
 
 function CreditCard({ nth, data }: { nth: number; data: CreditCardType }) {
   return (
-    <AccordionItem borderTop={!nth ? 'none' : undefined} key={nth}>
+    <AccordionItem borderTop={!nth ? 'none' : undefined} key={data.id}>
       <h2>
         <AccordionButton _expanded={{ bg: 'gray.100', color: 'gray.500' }}>
           <Box as="span" flex="1" textAlign="left">

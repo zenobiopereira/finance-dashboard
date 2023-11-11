@@ -2,7 +2,7 @@ import type { Loan } from 'types'
 
 export default <Loan[]>[
   {
-    id: 1,
+    id: 1001,
     name: 'Plaid Student',
     type: 'loan',
     monthlyPayment: 13805,
@@ -12,7 +12,7 @@ export default <Loan[]>[
     ).toISOString(),
   },
   {
-    id: 2,
+    id: 1002,
     name: 'Plaid Mortgage',
     type: 'mortgage',
     monthlyPayment: 314154,
